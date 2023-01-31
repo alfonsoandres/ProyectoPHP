@@ -38,10 +38,7 @@ function crudImprimir($id){
     $cli = $db->getCliente($id);
     crearPdf($cli);
 }
-function crudSubirFichero(){
 
-    subirArchivo();
-}
 
 
 function crudModificar($id){
