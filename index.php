@@ -25,7 +25,7 @@ $posAux = $_SESSION['posini'];
 //------------
 
 
-
+//
 ob_start(); // La salida se guarda en el bufer
 if ($_SERVER['REQUEST_METHOD'] == "GET" ){
     
